@@ -1,7 +1,7 @@
 {
   "name": "swiftcart-server-side",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "api/index.js",
   "scripts": {
     "start": "node api/index.js",
     "dev": "nodemon api/index.js"
