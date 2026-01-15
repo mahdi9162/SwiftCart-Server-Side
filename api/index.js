@@ -11,7 +11,7 @@ app.use(express.json());
 
 // test route
 app.get('/', (req, res) => {
-  res.send('PostFlow server running..');
+  res.send('SwiftCart server running..');
 });
 
 const uri = process.env.MONGO_URI;
